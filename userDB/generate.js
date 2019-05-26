@@ -6,7 +6,9 @@ module.exports = function() {
       return {
         id: n,
         name: faker.name.findName(),
-        avatar: faker.internet.avatar()
+        avatar: faker.internet.avatar(),
+        email: faker.internet.email(),
+        senha:faker.internet.password(),
       };
     })
   };
