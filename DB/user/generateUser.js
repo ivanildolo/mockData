@@ -10,6 +10,8 @@ module.exports = function() {
         avatar: faker.internet.avatar(),
         email: faker.internet.email(),
         senha:faker.internet.password(),
+        endereco: faker.address.countryCode(),
+        randomCard :faker.helpers.createCard()
       };
     })
   };
