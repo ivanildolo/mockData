@@ -11,7 +11,6 @@ module.exports = function() {
         email: faker.internet.email(),
         senha:faker.internet.password(),
         endereco: faker.address.countryCode(),
-        randomCard :faker.helpers.createCard()
       };
     })
   };
